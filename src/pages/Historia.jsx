@@ -12,4 +12,23 @@ export default function Historia() {
         </p>
 
         <p style={{ fontSize: "20px", opacity: 0.85, marginTop: "20px" }}>
-          Ao longo de mais de duas décadas, acumulamos experiências em projetos de gr
+          Ao longo de mais de duas décadas, acumulamos experiências em projetos de grande porte,
+          comissionamento, automação, instrumentação e supervisão técnica, atendendo empresas
+          reconhecidas no setor de mineração, siderurgia, energia e processos industriais.
+        </p>
+      </section>
+
+      <section style={{ marginTop: "80px" }}>
+        <h2 style={{ fontSize: "32px", marginBottom: "20px" }}>Evolução e Especialização</h2>
+
+        <ul style={{ fontSize: "20px", lineHeight: 1.8, opacity: 0.85 }}>
+          <li>✔ Consolidação como referência em projetos elétricos industriais</li>
+          <li>✔ Ampliação da atuação em instrumentação e automação</li>
+          <li>✔ Participação em comissionamentos de grande escala</li>
+          <li>✔ Reconhecimento pela excelência técnica</li>
+        </ul>
+      </section>
+
+    </div>
+  );
+}
