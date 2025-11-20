@@ -9,5 +9,19 @@
   </head>
   <body style="margin:0; padding:0;">
     <div id="root"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("[data-aos]").forEach((el) => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) el.classList.add("aos-animate");
+        },
+        { threshold: 0.2 }
+      );
+      observer.observe(el);
+    });
+  });
+</script>
+
   </body>
 </html>
