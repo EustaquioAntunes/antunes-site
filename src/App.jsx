@@ -24,6 +24,29 @@ export default function App() {
       </main>
 
       <Footer />
+<a
+  href="https://wa.me/5531988888888"
+  style={{
+    position: "fixed",
+    bottom: "25px",
+    right: "25px",
+    background: "#25D366",
+    width: "65px",
+    height: "65px",
+    borderRadius: "50%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "white",
+    fontSize: "38px",
+    textDecoration: "none",
+    zIndex: 2000,
+    boxShadow: "0 4px 15px rgba(0,0,0,0.2)"
+  }}
+>
+  ☎
+</a>
+
     </>
   );
 }
